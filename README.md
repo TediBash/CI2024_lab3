@@ -8,7 +8,7 @@ The n-puzzle is a classic problem for modelling algorithms involving heuristics.
 The objective of this project is to utilise the A* search algorithm or one of its variants in order to successfully solve the N-puzzle game. The initial configuration comprises a square board of N*N cells, with one cell designated as empty and the remaining cells populated with numbers, starting from 1, that are unique within the context of the puzzle. The objective is to devise a search algorithm capable of identifying a valid sequence of moves that will lead to the final state, commonly referred to as the "snail solution," which is contingent upon the dimensions of the puzzle.
 
 ## A*
-*Pros*:
+**Pros**:
 -  It will always find the optimal solution provided that it exist’s and that if a heuristic is supplied it must be admissible.
 -  Heuristic is not necessary, it is used to speed up the process.
 -  Various heuristics can be integrated to the algorithm without changing the basic code.
@@ -16,11 +16,11 @@ The objective of this project is to utilise the A* search algorithm or one of it
 -  It isn’t constrained to a unidirectional search.
 <br/>
 
-*Cons*:
+**Cons**:
 -  Not the best algorithm for each problem in terms of memory and processing required.
 -  Uses a lot of memory since each node created has to be kept accounted for.
 
 <br/>
 
-*Prerequisite knowledge *:
+**Prerequisite knowledge**:
 - You need to know how to convert your problem into a graph i.e into nodes and edges.
