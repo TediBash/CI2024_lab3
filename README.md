@@ -15,9 +15,12 @@ The objective of this project is to utilise the A* search algorithm or one of it
 -  The cost of each move can be tweaked into the algorithms as easily as the heuristic.
 -  It isn’t constrained to a unidirectional search.
 <br/>
+
 *Cons*:
 -  Not the best algorithm for each problem in terms of memory and processing required.
 -  Uses a lot of memory since each node created has to be kept accounted for.
+
 <br/>
+
 *Prerequisite knowledge *:
 - You need to know how to convert your problem into a graph i.e into nodes and edges.
