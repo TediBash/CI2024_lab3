@@ -29,7 +29,7 @@ I have implemented four strategies for calculating the distance from the goal, a
 - **Linear_conflict_manhattan**:  This involves counting the number of pairs of tiles that are in the wrong order compared to the goal. Use Manhattan, then add 2 for each pair of tiles that are in the same row or column and must be swapped.
 
 ## Structure of the project
-Two classes have been defined: Node and Priority Queue. <br/>The first is a fundamental data structure used to represent a node in a graph, while the second is a data structure that supports the efficient implementation of priority queues. 
+Two classes have been defined: **Node** and **Priority Queue**. <br/>The first is a fundamental data structure used to represent a node in a graph, while the second is a data structure that supports the efficient implementation of priority queues.<br/> 
 In order to facilitate the generation of the puzzle, the definition of the end goal and the methodology for solving it, I have defined a series of functions, which are:
 - generate_ordered_spiral_puzzle(puzzle_size)
 - generate_random_puzzle(puzzle_size)
