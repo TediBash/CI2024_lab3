@@ -25,6 +25,13 @@ The objective of this project is to utilise the A* search algorithm or one of it
 **Prerequisite knowledge**:
 - You need to know how to convert your problem into a graph i.e into nodes and edges.
 
+## How to calculate the distance
+I have implemented four strategies for calculating the distance from the goal, as follows:
+- **Manhattan_distance**: This is the sum of the distances (in the horizontal and vertical directions) from each tile to its goal position. It represents the minimum number of moves that each tile must make to reach its goal position.
+- **Euclidean_distance**: Calculate the Euclidean distance from the current state to the goal state. The Euclidean distance is also knowed as "as the crow flies" distance.
+- **hamming_distance**: Misplaced Tiles (Hamming distance): This is the toal number of tiles that are not in their correct place.
+- **linear_conflict_manhattan**:  This involves counting the number of pairs of tiles that are in the wrong order compared to the goal. Use Manhattan, then add 2 for each pair of tiles that are in the same row or column and must be swapped.
+
 
 ## Structure of the project
 Two classes have been defined: Node and Priority Queue. <br/>The first is a fundamental data structure used to represent a node in a graph, while the second is a data structure that supports the efficient implementation of priority queues. 
